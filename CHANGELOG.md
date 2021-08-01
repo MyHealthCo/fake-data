@@ -8,7 +8,18 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0), 
 
 ### Added
 
+- Fake patient record generation
+  - Support for minor/guardians
+  - US Centric Pharmacies
+  - Employment minor/
 - Dependencies for
-  - [`faker`]()
-  - [`pandas`]()
-  - [`pyarrow`]()
+  - [`faker`](https://faker.readthedocs.io/en/master/index.html)
+  - [`pandas`](https://pandas.pydata.org/)
+  - [`pyarrow`](https://arrow.apache.org/docs/python/)
+- Contribution Support
+  - Add [`pre-commit`](https://github.com/pre-commit/) support to include
+    - black style enforcement
+    - isort import formatting
+    - end of file fixer
+    - trailing whitespace
+    - yaml fixer
