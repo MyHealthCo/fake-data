@@ -1,8 +1,8 @@
 # fake-data
 
 [![maintainer is djfurman](https://img.shields.io/badge/maintainer-djfurman-blueviolet)](https://github.com/djfurman)
-[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-blue?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 [![license is BSD-3](https://img.shields.io/badge/license-BSD--3-yellow)](https://github.com/MyHealthCo/fake-data/blob/main/LICENSE)
+[![pre-commit](https://img.shields.io/badge/pre--commit-enabled-blue?logo=pre-commit&logoColor=white)](https://github.com/pre-commit/pre-commit)
 
 Creates fake but realistic data to test cache functionality for a non-existent health care company.
 
