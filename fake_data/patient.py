@@ -28,6 +28,7 @@ def address() -> dict:
 def fake_patient() -> dict:
     is_minor = fake.boolean(chance_of_getting_true=20)
     patient = {
+        "id": fake.uuid4(),
         "address": address(),
         "blood_type": {
             "group": fake.random.choice(["A", "AB", "B", "O"]),
