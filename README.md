@@ -8,7 +8,7 @@ Creates fake but realistic data to test cache functionality for a non-existent h
 
 ## Disclaimer
 
-This product generates fake data for a company that does not exist. Any resemblance to a real company is only a coincidence.
+This product generates fake data for a company that does not exist. Any resemblance to any real individual, legal entity or thing is only a coincidence.
 
 ## Use Case
 
