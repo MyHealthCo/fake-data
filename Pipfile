@@ -9,6 +9,8 @@ pandas = "*"
 pyarrow = "*"
 
 [dev-packages]
+iso3166 = "*"
+pydantic = "*"
 pytest = "*"
 pytest-cov = "*"
 
