@@ -12,7 +12,10 @@ def personal_id() -> dict:
             "middle": fake.first_name(),
             "surname": fake.last_name(),
         },
-        "tax_id_number": fake.ssn(),
+        "tax_id": {
+            "tax_id_value": fake.ssn(),
+            "issuing_country": fake.country_code(representation="alpha-3"),
+        },
     }
 
 
@@ -77,6 +80,9 @@ def fake_patient() -> dict:
         patient["employment"]["occupation"] = "Student"
         patient["guardian"] = personal_id()
         patient["guardian"]["address"] = patient["address"]
+        patient["guardian"]["birth_date"] = fake.date_between(
+            start_date="-102y", end_date="-19y"
+        ).isoformat()
     else:
         patient["birth_date"] = fake.date_between(
             start_date="-102y", end_date="-19y"
